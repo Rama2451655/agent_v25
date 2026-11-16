@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Line-art support agent: head, hair, face, headset with mic boom, shoulders -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:translateY="-2">
+        <!-- shoulders / blazer with collar V -->
+        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="2.6"
+            android:strokeLineCap="round" android:strokeLineJoin="round"
+            android:pathData="M30,86C30,74 40,69 54,69C68,69 78,74 78,86M45,70L54,80L63,70" />
+        <!-- neck -->
+        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="2.6"
+            android:strokeLineCap="round" android:pathData="M49,62L49,69M59,62L59,69" />
+        <!-- face (oval) -->
+        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="2.6"
+            android:strokeLineJoin="round"
+            android:pathData="M42,44C42,36 47,31 54,31C61,31 66,36 66,44C66,53 60,62 54,62C48,62 42,53 42,44Z" />
+        <!-- hair: side-swept fringe and sides -->
+        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="2.6"
+            android:strokeLineCap="round" android:strokeLineJoin="round"
+            android:pathData="M42,46C39,34 46,25 55,25C65,25 70,33 66,46M45,36C52,35 60,32 63,29" />
+        <!-- eyebrows, eyes, nose, smile -->
+        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:pathData="M46.5,41.5Q49,40 51.5,41.5M56.5,41.5Q59,40 61.5,41.5M54,46L53,51L55,51.5" />
+        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:pathData="M47.5,45.5Q49,44.4 50.5,45.5M57.5,45.5Q59,44.4 60.5,45.5M49.5,55Q54,58.5 58.5,55" />
+        <!-- headset: band, ear cups, mic boom -->
+        <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeWidth="2.6"
+            android:strokeLineCap="round" android:strokeLineJoin="round"
+            android:pathData="M39,46C37,29 46,21 54,21C62,21 71,29 69,46M37.5,43L40,43L40,51L37.5,51ZM68,43L70.5,43L70.5,51L68,51ZM69.5,51C69.5,58 65,60 59,60" />
+        <path android:fillColor="#FFFFFFFF" android:strokeColor="#FFFFFFFF" android:strokeWidth="1"
+            android:pathData="M56.5,60a2.5,2 0 1 0 5,0a2.5,2 0 1 0 -5,0z" />
+    </group>
+</vector>
